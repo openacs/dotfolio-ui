@@ -1,0 +1,178 @@
+.portlet {
+    border: none;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.portlet h5 { 
+    background-color: #eeeeee;
+    border: 1px solid #666;
+    padding: 0em 1em 0em 1em;
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    position: relative;
+    top: -1px;
+}
+
+.portletBody {
+    position: relative;
+    top: -1px;
+    background: transparent;
+    border: 1px solid #666;
+}
+
+.portletEdit {
+    background-color: #eeeeee;
+    display: inline;
+    font-size: 10px;
+    font-weight: normal;
+    float:right;
+    padding: 1px;
+}
+
+.portletOptions {
+    display: inline;
+    font-size: 10px;
+    font-weight: normal;
+    float:right;
+    padding: 1px;
+}
+
+.portletContent {
+    padding: 1em;
+    background-color: transparent;
+}
+
+.portlet .even {
+    background-color: #e6e6e6;
+}
+
+.portlet .odd {
+    background-color: transparent;
+}
+
+.visualClear {
+    display: block;
+    clear: both;
+}
+
+#portal-columns {
+    width: 100% !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#portal-column-one {
+    vertical-align: top;
+    width: 10em;
+}
+
+#portal-column-content {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+#portal-column-two {
+    vertical-align: top;
+    width: 10em;
+}
+
+/* Padding for the columns */
+#portal-column-one .visualPadding {
+    /*padding: 2em 0em 1em 2em;*/
+    padding: 1em 0em 1em 0em;
+}
+
+#portal-column-content .visualPadding {
+    /*padding: 0em 2em 1em 2em;*/
+    padding: 0em 1em 1em 1em;
+}
+
+#portal-column-two .visualPadding {
+    /*padding: 2em 2em 1em 0em;*/
+    padding: 1em 0em 1em 0em;
+}
+
+.dotfolioPortrait {
+    height: 120px;
+    width: 120px;
+}
+
+.documentBorder {
+    border: 1px solid #666;
+    background: White;
+}
+
+.documentContent {
+    padding: 1em !important;
+}
+
+.portletBlogEntries {
+    font-size: 80%;
+}
+
+.portletBlogDates {
+    font-size: 60%;
+}
+
+.clipperSection {
+    font-size: 80%;
+}
+
+input.clipperButton { 
+  font: 85% arial;
+  height: 15px;
+  border: solid 1px black;
+  background-color: #e1e1e1;
+  text-align: center; 
+  padding: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+input.clipperButton:hover { 
+  text-decoration: none;
+  background-color: #ccc;
+  border: solid 1px black;
+}
+
+a.clipperButton {
+  font: 85% arial;
+  height: 15px;
+  border: solid 1px black;
+  background-color: #e1e1e1;
+  text-align: center;
+  padding: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a.clipperButton:link {
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+a.clipperButton:visited {
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+a.clipperButton:hover {
+  text-decoration: none;
+  background-color: #ccc;
+  border: solid 1px black;
+}
+
+a.clipperButton:active {
+  text-decoration: none;
+  border: solid 1px black;
+}
