@@ -7,6 +7,7 @@
   <msg key="portrait">Portrait</msg>
   <msg key="learner_profile">Learner Profile</msg>
   <msg key="blog_entries">Blog Entries</msg>
+  <msg key="help">Help</msg>
   <msg key="help_edit_portrait">Click the edit icon to add your portrait</msg>
   <msg key="tooltip_edit_portrait">Edit Portrait</msg>
   <msg key="tooltip_edit_welcome">Edit Welcome Note</msg>
