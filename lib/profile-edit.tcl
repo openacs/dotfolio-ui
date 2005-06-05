@@ -15,11 +15,11 @@ set package_id [ad_conn package_id]
 # never a new_request.
 set owner_id [dotfolio::user::get_owner_id]
 
-# Check if the user has permission to edit the owner's profile.
+# Check if the user has write permission to edit the owner's profile.
 permission::require_permission \
     -object_id $package_id \
     -party_id $user_id \
-    -privilege "admin"
+    -privilege "write"
 
 # Export variable edit_profile as empty query string.  Used to display this
 # include script.
