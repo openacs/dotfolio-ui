@@ -1,6 +1,6 @@
 <master src="/www/site-master">
 <property name="header_stuff">
-<link rel="stylesheet" type="text/css" href="/resources/dotfolio-ui/dotfolio-grey.css" media="all" />
+<link rel="stylesheet" type="text/css" href="@dotfolioCSS@" media="all" />
 </property>
 
 <if @title@ not nil>

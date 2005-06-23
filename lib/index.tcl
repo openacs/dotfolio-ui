@@ -37,4 +37,8 @@ if {[info exists edit_profile]} {
     set edit_profile_p 1
 }
 
+set defaultPortrait [parameter::get_from_package_key \
+			 -parameter "DefaultPortrait" \
+			 -package_key "dotfolio"]
+
 ad_return_template

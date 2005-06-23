@@ -24,10 +24,10 @@
               </if>
               <else>
                 <if @owner_p@ eq "1">
-                <img onmouseover="this.T_WIDTH=120;this.T_TEMP=3500;return escape('<img src=\'/resources/dotfolio-ui/help.jpg\' alt=\'#dotfolio-ui.help#\' /> #dotfolio-ui.help_edit_portrait#')" class="dotfolioPortrait" src="/resources/dotfolio-ui/blank_portrait.jpg" alt="#dotfolio-ui.portrait#" />
+                <img onmouseover="this.T_WIDTH=120;this.T_TEMP=3500;return escape('<img src=\'/resources/dotfolio-ui/help.jpg\' alt=\'#dotfolio-ui.help#\' /> #dotfolio-ui.help_edit_portrait#')" class="dotfolioPortrait" src="@defaultPortrait@" alt="#dotfolio-ui.portrait#" />
  	        </if>
                 <else>
-                <img class="dotfolioPortrait" src="/resources/dotfolio-ui/blank_portrait.jpg" alt="#dotfolio-ui.portrait#" />
+                <img class="dotfolioPortrait" src="@defaultPortrait@" alt="#dotfolio-ui.portrait#" />
                 </else>
               </else>
               </div>

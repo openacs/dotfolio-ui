@@ -7,14 +7,14 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/dotfolio-ui-0.1d.apm">
+    <version name="0.2" url="http://openacs.org/repository/download/apm/dotfolio-ui-0.2.apm">
         <owner url="mailto:nick.c@rroll.net">Nick Carroll</owner>
         <summary>User interface for dotFOLIO space.</summary>
         <vendor url="http://www.weg.ee.usyd.edu.au">Web Engineering Group</vendor>
         <description format="text/html">User interface for dotFOLIO space.</description>
         <maturity>0</maturity>
 
-        <provides url="dotfolio-ui" version="0.1d"/>
+        <provides url="dotfolio-ui" version="0.2"/>
 
         <callbacks>
         </callbacks>

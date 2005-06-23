@@ -22,6 +22,9 @@ if { ![info exists subnavbar_link] } {
     set subnavbar_link {}
 }
 
+set dotfolioCSS [parameter::get_from_package_key -parameter "DotfolioCSS" \
+		     -package_key "dotfolio"]
+
 # This will set 'sections' and 'subsections' multirows
 subsite::define_pageflow -section $section
 subsite::get_section_info -array section_info
