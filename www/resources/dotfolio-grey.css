@@ -176,3 +176,13 @@ a.clipperButton:active {
   text-decoration: none;
   border: solid 1px black;
 }
+
+.dimension-section {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.dimension-section-selected {
+  font-size: 80%;
+  font-weight: bold;
+}

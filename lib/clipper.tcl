@@ -12,10 +12,10 @@ ad_page_contract {
 
 
 # generic stuff we need
-set url [dotfolio::ui::organiser_url]
 set subsite [ad_conn subsite_id]
 set user_id [ad_conn user_id]
 set cur_pkg [ad_conn package_id]
+set url [dotfolio::ui::users_organiser_url -user_id $user_id]
 
 db_1row obj_title {}
 

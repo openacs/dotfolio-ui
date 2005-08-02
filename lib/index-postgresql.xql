@@ -11,6 +11,8 @@
             WHERE pkg.package_key = 'lars-blogger'
             AND pkg.package_id IN ([join $list_of_package_ids ,]) 
             AND blog.package_id = pkg.package_id
+	    AND blog.draft_p = 'f'
+	    AND blog.deleted_p = 'f'
             ORDER BY blog.entry_date DESC
       </querytext>
     </fullquery>

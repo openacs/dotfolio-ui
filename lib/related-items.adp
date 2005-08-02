@@ -3,9 +3,9 @@
   <div class="visualPadding"></div>
   <div class="documentBorder">
     <div class="documentContent">
-
-      <listtemplate name="related_items"></listtemplate>
-
+      <center>
+        <listtemplate name="related_items"></listtemplate>
+      </center>
     </div>
   </div>
 

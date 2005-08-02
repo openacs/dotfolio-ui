@@ -4,7 +4,7 @@
 </property>
 
 <if @title@ not nil>
-    <property name="title">@title;noquote@</property>
+    <property name="title">@page_title;noquote@</property>
 </if>
 <if @signatory@ not nil>
   <property name="signatory">@signatory;noquote@</property>
@@ -51,7 +51,8 @@
 
 <!-- Body -->
 
-<!-- Display clipper and related items if there is a displayed object. -->
+<!-- Display clipper and related items if there is a displayed object, -->
+<!-- and the user is logged in.                                        -->
 <if @displayed_object_id@ not nil>
   <p>
   <div class="visualClear"></div>
@@ -59,23 +60,29 @@
   <table id="portal-columns">
     <tbody>
       <tr>
+	<if @has_dotfolio_p@>
         <td id="portal-column-one">
         <div class="visualPadding">
           <include src="/packages/dotfolio-ui/lib/clipper" displayed_object_id="@displayed_object_id@" />
         </div>
         </td>
+        </if>
 
         <td id="portal-column-content">
           <div class="visualPadding">
             <div class="documentBorder">
               <div class="documentContent">
+                <if @page_title@ not nil>
+                <h1 class="page-title">@page_title;noquote@</h1>
+                </if>
                 <slave>
               </div>
             </div>
 
+            <if @user_id@ gt 0>
 <!-- Need to add related items section below main content. -->
             <include src="/packages/dotfolio-ui/lib/related-items" displayed_object_id="@displayed_object_id@" />
-
+            </if>
           </div>
         </td>
 
@@ -83,7 +90,6 @@
 
     </tbody>
   </table>
-
 </if>
 <else>
   <P>

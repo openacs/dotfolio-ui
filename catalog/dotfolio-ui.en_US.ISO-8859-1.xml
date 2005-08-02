@@ -29,10 +29,15 @@
   <msg key="more">More</msg>
   <msg key="no_entries">No entries</msg>
   <msg key="related_items">Related Items</msg>
+  <msg key="related_item">Related Item</msg>
+  <msg key="created_by">Created By</msg>
+  <msg key="created_on">Created On</msg>
+  <msg key="type">Type</msg>
   <msg key="relate">Relate</msg>
   <msg key="view_item">View item</msg>
   <msg key="remove_item">Remove item</msg>
   <msg key="remove">remove</msg>
+  <msg key="remove2">Remove</msg>
   <msg key="add_related_items">Add Related Items</msg>
   <msg key="delete">delete</msg>
   <msg key="edit">edit</msg>
