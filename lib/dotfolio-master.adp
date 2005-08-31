@@ -60,6 +60,7 @@
   <table id="portal-columns">
     <tbody>
       <tr>
+        <if @display_clipper@>
 	<if @has_dotfolio_p@>
         <td id="portal-column-one">
         <div class="visualPadding">
@@ -67,6 +68,7 @@
         </div>
         </td>
         </if>
+	</if>
 
         <td id="portal-column-content">
           <div class="visualPadding">

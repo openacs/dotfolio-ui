@@ -38,8 +38,8 @@
           <p>
             <if @views@ eq 1>#dotfolio-ui.item_viewed_once#&nbsp;</if>
             <else>#dotfolio-ui.item_viewed_num_times#&nbsp;</else>
-            <if @unique_views@ eq 1>#dotfolio-ui.by_one_unique_visitor#</if>
-            <else>#dotfolio-ui.by_num_unique_visitors#</else>
+            <if @unique_views@ eq 1><a href="@url@views/index?object_id=@displayed_object_id@">#dotfolio-ui.by_one_unique_visitor#</a></if>
+            <else><a href="@url@views/index?object_id=@displayed_object_id@">#dotfolio-ui.by_num_unique_visitors#</a></else>
           </p>
         </div>
 

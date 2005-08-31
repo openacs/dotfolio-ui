@@ -101,3 +101,12 @@ if { [dotfolio::user::owner_p -node_id $subsite_node_id $user_id] || \
     }
     
 }
+
+
+# Display clipper and related items?
+set display_clipper 0
+if { [info exists displayed_object_id] } {
+    if { ![dotfolio::ui::is_content_folder_p -object_id $displayed_object_id] } {
+	set display_clipper 1
+    }
+}
