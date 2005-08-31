@@ -69,5 +69,9 @@
   <msg key="items_attached">items attached</msg>
   <msg key="items_in_this_clipboard">Items in this clipboard:</msg>
   <msg key="clipped">clipped</msg>
+  <msg key="viewed_by">Viewed By</msg>
+  <msg key="viewer">Viewer</msg>
+  <msg key="number_of_times_viewed">Number of times viewed</msg>
+  <msg key="last_viewed">Last Viewed</msg>
 
 </message_catalog>
