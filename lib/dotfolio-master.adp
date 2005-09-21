@@ -1,6 +1,7 @@
 <master src="/www/site-master">
 <property name="header_stuff">
 <link rel="stylesheet" type="text/css" href="@dotfolioCSS@" media="all" />
+@header_stuff;noquote@
 </property>
 
 <if @title@ not nil>
