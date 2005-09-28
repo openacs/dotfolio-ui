@@ -65,7 +65,7 @@ if { [dotfolio::user::owner_p -node_id $subsite_node_id $user_id] || \
 	 [dotfolio::admin_p -user_id $user_id]} {
     template::multirow foreach sections {
 
-	if {![string equal $name "admin"]} {
+	if {![string equal $name "admin"] && ![string equal $name "members"]} {
 
 	    template::multirow append tabs $name $label $title $url \
 		$selected_p $link_p
