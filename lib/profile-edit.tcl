@@ -30,7 +30,7 @@ ad_form -name edit_profile_attributes -cancel_url {./} \
 	owner_id:key
 
 	# Preferred name
-	{pref_name:text \
+	{pref_name:text,optional \
 	    {label "[_ dotfolio-ui.profile_pref_name]" }
 	    {html {size 40}}
 	}
