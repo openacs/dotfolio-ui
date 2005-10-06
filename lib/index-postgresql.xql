@@ -14,6 +14,7 @@
 	    AND blog.draft_p = 'f'
 	    AND blog.deleted_p = 'f'
             ORDER BY blog.entry_date DESC
+            LIMIT 5
       </querytext>
     </fullquery>
 
