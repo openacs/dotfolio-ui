@@ -12,7 +12,7 @@
         <summary>User interface for dotFOLIO space.</summary>
         <vendor url="http://www.weg.ee.usyd.edu.au">Web Engineering Group</vendor>
         <description format="text/html">User interface for dotFOLIO space.</description>
-        <maturity>0</maturity>
+        <maturity>4</maturity>
 
         <provides url="dotfolio-ui" version="0.3"/>
 
